@@ -50,10 +50,8 @@ h1{
 
 
 .footer {
-       position: fixed;
        left: 0;
        bottom: 0;
-       width: 100%;
        background-color: red;
        color:#F5F5F5;
        text-align: left;
@@ -71,23 +69,31 @@ h1{
 .games{
     background-color: #FFFFFF;
     position: relative;
-    height: 300px;
+    height: 1000px;
     width: 1200px;
-    margin: 240px auto;
+    margin: 100px auto;
 }
 .games h2{
     text-align: center;
+    padding-bottom:35px;
 }
 .games .box{
-    padding-top: 50px;
     position: relative;
     width:calc(400px - 30px);
     height:calc(300px - 30px);
-    background: #000;
+    background: rgb(235, 233, 233);
     float:left;
     margin: 15px;
     box-sizing: border-box;
     overflow: hidden;
     border-radius:10px;
 
+}
+
+.games .box p{
+    font-weight: 700;
+    text-align: center;
+    padding: 30%;
+    font-size: 20px;
+    color: grey;
 }
