@@ -45,14 +45,7 @@ h1{
 }
 
 
-.footer {
-       left: 0;
-       bottom: 0;
-       background-color: red;
-       color:#F5F5F5;
-       text-align: left;
-       padding:20px;
-        }
+
 
 .hero-section{
     background-color:#BE0808;
@@ -129,4 +122,32 @@ h1{
 .updates .ubox p{
     padding: 10px 0 0 20px;
     font-size: 15px;
+}
+
+footer{
+    /* position:fixed; */
+    bottom: 0;
+}
+
+.footer-main {
+    background-color: red;
+    color: white;
+    box-sizing: border-box;
+	width: 100%;
+    text-align: left;
+    padding: 50px 50px 60px 50px;
+	margin-top: 80px;
+ }
+
+.footer-main .footer-left, .footer-main .footer-right{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.footer-main .footer-left{
+	width: 30%;
+}
+
+.footer-main .footer-right{
+	width: 30%;
 }
