@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+
 
     <title>Gurkha Games</title>
 </head>
@@ -64,14 +66,50 @@
             </div>
     </div>
 
+    <div class="team">
+        <h2>Our Team</h2>
+
+        <div class="teambox">
+            <div class="tbox">
+            </div>
+            <h2>Arpan Pyasi</h2>
+            <p>Visual Artist</p>
+        </div>
+        <div class="teambox">
+            <div class="tbox">
+            </div>
+            <h2>Nirdesh Shrestha</h2>
+             <p>Visual Artist</p>
+        </div>
+        <div class="teambox">
+            <div class="tbox">
+            </div>
+            <h2>Prerak Giri</h2>
+            <p>Game Developer</p>
+        </div>
+        <div class="teambox">
+            <div class="tbox">
+            </div>
+            <h2>Yogesh Dhakal</h2>
+            <p>Visual Designer</p>
+        </div>
+
+    </div>
+
+
+
+
     <footer class="footer-main">
         <div class="footer-left">
-            <p>2020 Gurkha Games. All Rights Reserved</p>
+            <p>&copy; <span id="year"></span> Gurkha Games. All Rights Reserved</p>
         </div>
         <div class="footer-right">
             <p>Top of The Mountain</p>
         </div>
     </footer>
 
+    <script>
+        document.getElementById("year").innerHTML = new Date().getFullYear();
+        </script>
 </body>
 </html>
