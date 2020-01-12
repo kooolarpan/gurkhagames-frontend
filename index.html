@@ -8,12 +8,12 @@
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.0/css/all.css">
-
     <title>Gurkha Games - Offical Website</title>
 </head>
 <body>
-    <div class="nav-bar">
-        <div class="logo">
+    <!-- Nav Bar Starts -->
+    <div class="nav-bar" id="top">
+        <div class="nav-logo">
             <a href="#">
                 <img src="/img/assets/gg-logo.png" alt="Gurkha Games Logo"/>
             </a>
@@ -25,9 +25,11 @@
           <li><a href="#">Team</a></li>
           <li><a href="#">Join Gurkha</a></li>
           </ul>
-          </nav>
+         </nav>
     </div>
-
+     <!-- Nav Bar Ends -->
+     <!-- Hero Section Starts -->
+   
     <div class="hero-section">
         <div class=hero>
             <div class="hero-text">
@@ -35,8 +37,10 @@
             </div>
         </div>
     </div>
+    <!-- Hero Section Ends -->
+    <!-- Our Games Starts -->
 
-    <div class="games">
+    <div class="our-games">
         <h2>Our Games</h2>
             <div class="box">
                 <p>Tipper Mayhem</p>
@@ -48,8 +52,9 @@
                 <p>Race Nepal</p>
             </div>
     </div>
-
-    <div class="updates">
+     <!-- Our Games Ends -->
+    <!-- Latest Updates Starts -->
+    <div class="latest-updates">
         <h2>Latest Updates</h2>
             <div class="ubox">
                 <img src="/img/assets/updates.png" alt="" id="logo">
@@ -67,8 +72,9 @@
                 <h2>Sketching Environment For Machhapuchhre</h2>
             </div>
     </div>
-
-    <div class="team">
+    <!-- Latest Updates Ends -->
+    <!-- Our Team Starts -->
+    <div class="our-team">
         <h2>Our Team</h2>
 
         <div class="teambox">
@@ -96,10 +102,12 @@
             <p>Visual Designer</p>
         </div>
     </div>
-
+    <!-- Our Team Ends -->
+    <!-- Footer Starts -->
+    <footer>
     <div class="footer-top">
         <div class="footer-top-left">
-            <img class="footer-image" src="/img/assets/gg-logo.png" alt="Gurkha Games Logo">
+            <a href="#"><img class="footer-image" src="/img/assets/gg-logo.png" alt="Gurkha Games Logo"></a>
         </div>
         <div class="footer-top-center">
             <img class="footer-center-icon" src="/img/assets/khukuri-yeti.png" alt="khukuri-yeti">
@@ -107,24 +115,21 @@
         <div class="footer-top-right">
             <a href="mailto:gurkhagames@gmail.com"><i class="fas fa-envelope"></i></a>
             <a href="https://facebook.com/GamesGurkha" target="_blank"><i class="fab fa-facebook"></i></a>
-            <!-- <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fab fa-linkedin"></i></a> -->
             <a href="https://youtube.com/GamesGurkha" target="_blank"><i class="fab fa-youtube"></i></a>
         </div>
     </div>
-  
-    <footer class="footer-main">
+    <div class="footer-main">
         <div class="footer-left">
             <p>&copy; <span id="year"></span> Gurkha Games. All Rights Reserved</p>
         </div>
         <div class="footer-right">
-            <p>Top of The Mountain</p>
+           <a href="#top"><p>Top of The Mountain</p></a>
         </div>
+    </div>
     </footer>
-
+    <!-- Footer Ends -->
     <script>
         document.getElementById("year").innerHTML = new Date().getFullYear();
-        </script>
+    </script>
 </body>
 </html>

@@ -10,15 +10,16 @@
   background-color: #BE0808;
 }
 
-nav{
-    float:right;
-}
-
-.logo img{
+.nav-logo img{
     float:left;
     padding: 50px;
     width:130px;
 }
+
+nav{
+    float:right;
+}
+
 ul{
     padding:40px;
 }
@@ -40,40 +41,38 @@ ul li a{
     color: white;
 }
 
-.hero-text h1{
-    text-align:left;
-    font-size: 70px;
-    font-weight: 700;
-    color:#F5F5F5;
-
-}
-
 .hero-section{
     background-color:#BE0808;
 }
+
 .hero{
     background-image: url('/img/assets/hero-section.png');
     background-size: cover;
     height: 632px;
 }
 
-.hero-text{
-    padding: 80px 35% 0px 95px;
+.hero-text h1{
+    text-align:left;
+    font-size: 70px;
+    font-weight: 700;
+    color:#F5F5F5;
+    padding: 80px 550px 0px 95px;
 
 }
-.games{
+
+.our-games{
     background-color: #FFFFFF;
     position: relative;
     height: 345px;
     width: 1200px;
     margin: 100px auto;
 }
-.games h2{
+.our-games h2{
     text-align: center;
     padding-bottom:50px;
     font-size: 40px;
 }
-.games .box{
+.our-games .box{
     position: relative;
     width:calc(400px - 30px);
     height:calc(300px - 30px);
@@ -86,7 +85,7 @@ ul li a{
 
 }
 
-.games .box p{
+.our-games .box p{
     font-weight: 700;
     text-align: center;
     padding: 30%;
@@ -94,19 +93,21 @@ ul li a{
     color: grey;
 }
 
-.updates{
+.latest-updates{
     background-color: #FFFFFF;
     position: relative;
-    height: 600px;
+    height: 550px;
     width: 1200px;
     margin: 100px auto;
 }
-.updates h2{
+
+.latest-updates h2{
     text-align: center;
     padding-bottom:50px;
     font-size: 40px;
 }
-.updates .ubox{
+
+.latest-updates .ubox{
     position: relative;
     width:calc(400px - 30px);
     height:calc(500px - 30px);
@@ -118,52 +119,36 @@ ul li a{
     box-shadow:   0px 4px 6px 0px #ccc;
 }
 
-.updates .ubox h2{
+.latest-updates .ubox h2{
     font-weight: 700;
     text-align: left;
     font-size: 20px;
     color: black;
     padding: 10px 0 0 20px;
     font-size: 25px;
-    
 }
 
-.updates .ubox p{
+.latest-updates .ubox p{
     padding: 10px 0 0 20px;
     font-size: 15px;
 }
 
 
 
-
-
-
-
-
-.team{
+.our-team{
     background-color: #FFFFFF;
     position: relative;
     height: 500px;
     width: 1200px;
     margin: 100px auto;
 }
-.team h2{
+.our-team > h2{
     text-align: center;
-    /* padding-bottom:50px; */
+    padding-bottom:50px;
     font-size: 40px;
 }
-.team .tbox{
-    /* position: relative; */
-    width:calc(300px - 30px);
-    height:calc(300px - 30px);
-    background: rgb(235, 233, 233);
-    /* float:left; */
-    margin: 15px;
-    /* box-sizing: border-box;
-    overflow: hidden; */
-}
 
-.team .tbox-1{
+.tbox-1{
     width:calc(300px - 30px);
     height:calc(300px - 30px);
     background-image: url('/img/team/Arpan-Pyasi.jpg');
@@ -171,8 +156,7 @@ ul li a{
     margin: 15px;
     background-size: cover;
 }
-
-.team .tbox-2{
+.tbox-2{
     width:calc(300px - 30px);
     height:calc(300px - 30px);
     background-image: url('/img/team/Nirdesh-Shrestha.jpg');
@@ -180,7 +164,7 @@ ul li a{
     margin: 15px;
     background-size: cover;
 }
-.team .tbox-3{
+.tbox-3{
     width:calc(300px - 30px);
     height:calc(300px - 30px);
     background-image: url('/img/team/Prerak-Giri.jpg');
@@ -188,7 +172,7 @@ ul li a{
     margin: 15px;
     background-size: cover;
 }
-.team .tbox-4{
+.tbox-4{
     width:calc(300px - 30px);
     height:calc(300px - 30px);
     background-image: url('/img/team/Yogesh-Dhakal.jpg');
@@ -197,36 +181,23 @@ ul li a{
     background-size: cover;
 }
 
-.team .tbox h2{
-    font-weight: 700;
-    text-align: left;
-    font-size: 20px;
-    color: black;
-    padding: 10px 0 0 20px;
-    font-size: 25px;
-    
+.teambox{
+    float:left;
 }
 
-.team .tbox p{
-    padding: 10px 0 0 20px;
-    font-size: 15px;
+.teambox h2{
+    font-size: 20px;
+    text-align: center;
 }
 
-.team .teambox h2{
-    font-size: 20px;
-}
 .teambox p{
     font-size: 15px;
     text-align: center;
 }
 
-.teambox{
-    float:left;
-    /* display:flex; */
-    /* flex-wrap: wrap; */
+footer{
+    bottom:0;
 }
-
-
 
 .footer-top{
     display: flex;
@@ -234,7 +205,7 @@ ul li a{
     padding: 20px;
 }
 
-.footer-top .footer-top-left{
+.footer-top-left{
     float: left;
 }
 
@@ -242,24 +213,22 @@ ul li a{
     width: 150px;
 }
 
+.footer-top-center {
+    margin: auto;
+ }
+
 .footer-center-icon{
     width: 85px;
 }
-.footer-top .footer-top-center {
-   margin: auto;
-}
 
-.footer-top .footer-top-right{
+.footer-top-right{
     float: right;
 }
+
 i.fab, i.fas{
     color: white;
     font-size: 1.5em;
     padding: 5px;
-}
-
-footer{
-    bottom: 0;
 }
 
 .footer-main {
@@ -269,21 +238,25 @@ footer{
 	width: 100%;
     text-align: left;
     padding: 40px;
-    /* margin-top: 80px; */
     display: flex;
  }
 
-.footer-main .footer-left, .footer-main .footer-right{
+.footer-left, .footer-right{
     display: inline-block;
     vertical-align: top;
 }
 
-.footer-main .footer-left{
+.footer-left{
     width: 100%;
     text-align: left;
 }
 
-.footer-main .footer-right{
+.footer-right{
     width: 100%;
     text-align: right;
+}
+
+.footer-right a{
+    text-decoration: none;
+    color: white;
 }
