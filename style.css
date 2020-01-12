@@ -1,10 +1,10 @@
 *{
     margin: 0;
     padding: 0;
-    font-family:Montserrat;
+    font-family:Roboto;
 }
 
-.container{
+.nav-bar{
   clear:both;
   overflow:auto;
   background-color: #BE0808;
@@ -16,7 +16,8 @@ nav{
 
 .logo img{
     float:left;
-    padding: 25px;
+    padding: 50px;
+    width:130px;
 }
 ul{
     padding:40px;
@@ -29,23 +30,23 @@ ul li{
 
 }
 
-ul li:hover{
+ul li a:hover{
   color: black;
   
 }
-h1{
+
+ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+.hero-text h1{
     text-align:left;
-    font-size: 40px;
+    font-size: 70px;
     font-weight: 700;
-    padding-left: 5%;
-    padding-right: 60%;
-    padding-top: 60px;
     color:#F5F5F5;
 
 }
-
-
-
 
 .hero-section{
     background-color:#BE0808;
@@ -53,7 +54,12 @@ h1{
 .hero{
     background-image: url('/img/assets/hero-section.png');
     background-size: cover;
-    height: 600px;
+    height: 632px;
+}
+
+.hero-text{
+    padding: 80px 35% 0px 95px;
+
 }
 .games{
     background-color: #FFFFFF;
@@ -64,7 +70,8 @@ h1{
 }
 .games h2{
     text-align: center;
-    padding-bottom:35px;
+    padding-bottom:50px;
+    font-size: 40px;
 }
 .games .box{
     position: relative;
@@ -90,12 +97,14 @@ h1{
 .updates{
     background-color: #FFFFFF;
     position: relative;
-    height: 1000px;
+    height: 600px;
     width: 1200px;
     margin: 100px auto;
 }
 .updates h2{
     text-align: center;
+    padding-bottom:50px;
+    font-size: 40px;
 }
 .updates .ubox{
     position: relative;
@@ -124,8 +133,106 @@ h1{
     font-size: 15px;
 }
 
+
+
+
+
+
+
+
+.team{
+    background-color: #FFFFFF;
+    position: relative;
+    height: 500px;
+    width: 1200px;
+    margin: 100px auto;
+}
+.team h2{
+    text-align: center;
+    /* padding-bottom:50px; */
+    font-size: 40px;
+}
+.team .tbox{
+    /* position: relative; */
+    width:calc(300px - 30px);
+    height:calc(300px - 30px);
+    background: rgb(235, 233, 233);
+    /* float:left; */
+    margin: 15px;
+    /* box-sizing: border-box;
+    overflow: hidden; */
+}
+
+.team .tbox-1{
+    width:calc(300px - 30px);
+    height:calc(300px - 30px);
+    background-image: url('/img/team/Arpan-Pyasi.jpg');
+    float:left;
+    margin: 15px;
+    background-size: cover;
+}
+
+.team .tbox-2{
+    width:calc(300px - 30px);
+    height:calc(300px - 30px);
+    background-image: url('/img/team/Nirdesh-Shrestha.jpg');
+    float:left;
+    margin: 15px;
+    background-size: cover;
+}
+.team .tbox-3{
+    width:calc(300px - 30px);
+    height:calc(300px - 30px);
+    background-image: url('/img/team/Prerak-Giri.jpg');
+    float:left;
+    margin: 15px;
+    background-size: cover;
+}
+.team .tbox-4{
+    width:calc(300px - 30px);
+    height:calc(300px - 30px);
+    background-image: url('/img/team/Yogesh-Dhakal.jpg');
+    float:left;
+    margin: 15px;
+    background-size: cover;
+}
+
+.team .tbox h2{
+    font-weight: 700;
+    text-align: left;
+    font-size: 20px;
+    color: black;
+    padding: 10px 0 0 20px;
+    font-size: 25px;
+    
+}
+
+.team .tbox p{
+    padding: 10px 0 0 20px;
+    font-size: 15px;
+}
+
+.team .teambox h2{
+    font-size: 20px;
+}
+.teambox p{
+    font-size: 15px;
+    text-align: center;
+}
+
+.teambox{
+    float:left;
+    /* display:flex; */
+    /* flex-wrap: wrap; */
+}
+
+
+
+
+
+
+
 footer{
-    /* position:fixed; */
     bottom: 0;
 }
 
@@ -135,8 +242,9 @@ footer{
     box-sizing: border-box;
 	width: 100%;
     text-align: left;
-    padding: 50px 50px 60px 50px;
-	margin-top: 80px;
+    padding: 40px;
+    /* margin-top: 80px; */
+    display: flex;
  }
 
 .footer-main .footer-left, .footer-main .footer-right{
@@ -145,9 +253,11 @@ footer{
 }
 
 .footer-main .footer-left{
-	width: 30%;
+    width: 100%;
+    text-align: left;
 }
 
 .footer-main .footer-right{
-	width: 30%;
+    width: 100%;
+    text-align: right;
 }
