@@ -228,16 +228,42 @@ ul li a{
 
 
 
+.footer-top{
+    display: flex;
+    background-color: #B30707;
+    padding: 20px;
+}
 
+.footer-top .footer-top-left{
+    float: left;
+}
 
+.footer-image{
+    width: 150px;
+}
 
+.footer-center-icon{
+    width: 85px;
+}
+.footer-top .footer-top-center {
+   margin: auto;
+}
+
+.footer-top .footer-top-right{
+    float: right;
+}
+i.fab, i.fas{
+    color: white;
+    font-size: 1.5em;
+    padding: 5px;
+}
 
 footer{
     bottom: 0;
 }
 
 .footer-main {
-    background-color: red;
+    background-color: #B30707;
     color: white;
     box-sizing: border-box;
 	width: 100%;
